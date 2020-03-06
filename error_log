@@ -1,0 +1,4 @@
+[23-Dec-2019 13:06:17 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/a3alam87/public_html/sar/wp-content/themes/sar/functions.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/a3alam87/public_html/sar/wp-content/themes/sar/functions.php on line 11

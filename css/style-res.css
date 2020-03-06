@@ -1,0 +1,334 @@
+@media(max-width:1440px) {}
+
+@media(max-width:1366px) {}
+
+@media(max-width:1024px) {}
+
+@media(max-width:991px) {
+    .container {
+        width: 100%;
+    }
+
+    .wrapper {
+        overflow: hidden;
+    }
+
+    .login-inner {
+        padding: 0 20px;
+    }
+
+    .login-card .login-img {
+        /*        display: none;*/
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+
+    .login-card .login-form {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        background-color: rgba(25, 118, 211, 0.77);
+    }
+
+    .mob-head {
+        display: block;
+    }
+
+    .wrap-content {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .sidebar {
+        transform: translateX(-150%);
+        overflow: hidden;
+        max-height: 100%;
+        overflow-y: auto;
+    }
+
+    .sidebar.on {
+        transform: translateX(0);
+        transition: all .3s;
+    }
+
+    .content-top .logo-co img {
+        width: 70px;
+    }
+
+    .content-top .logo-co .co-head {
+        border-width: 5px;
+        top: 28px;
+    }
+
+    .content-top .logo-co .co-head h3 {
+        font-size: 20px;
+    }
+
+    .content-top .co-extra {
+        width: 100%;
+    }
+
+    .content-top .co-extra a {
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .adv-filter .form-group {
+        width: 100% !important;
+        padding: 0 0 15px;
+    }
+
+    .off-sidebar {
+        display: none;
+    }
+
+    .rep-blocks .block {
+        padding: 10px 0;
+    }
+
+    .rep-blocks .block .inner .i-data span {
+        font-size: 25px;
+    }
+
+    .rep-blocks .block .inner .i-data h3 {
+        font-size: 20px;
+    }
+
+    .rep-blocks .block .inner .i-img {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+
+    .rep-stst .cardo {
+        padding: 10px 0;
+    }
+
+    .rep-stst .cardo .inner {
+        padding: 20px;
+    }
+
+    .filter-res .form-group {
+        padding: 10px 0;
+    }
+
+    .filter-res .form-group .tag-i {
+        display: block;
+        margin: 0 0 10px;
+    }
+
+    .filter-res .form-group .tag-i .del {
+        float: right;
+    }
+
+    .adv-table .table td {
+        text-align: inherit;
+        font-size: 12px;
+    }
+
+    .adv-table .table th {
+        background-image: none !important;
+    }
+
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child,
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child {
+        padding-left: 30px !important;
+    }
+
+    .case-head h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .case-head .nav-tabs {
+        width: 100%;
+    }
+
+    .t-top .t-pic label {
+        width: 150px;
+        height: 150px;
+    }
+
+    .t-top .t-pic label .up-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .t-top .t-btns {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .t-top .t-pic {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .f-item.col-md-8 {
+        padding: 0;
+    }
+
+    .upload-items {
+        margin-bottom: 10px;
+    }
+
+    .form-i {
+        padding: 10px 0;
+    }
+
+    .com-item {
+        padding: 0;
+    }
+}
+
+@media(min-width:768px) {
+    .modal-dialog {
+        width: 1000px;
+    }
+}
+
+
+
+@media(max-width:768px) {}
+
+@media(max-width:600px) {
+    .login-card .login-form .form-group .btn {
+        margin: 20px 0 0;
+    }
+
+    .login-card .login-form {
+        padding: 20px;
+    }
+
+    .f-item .form-group .hors .bot.bot1 {
+        left: 155px;
+    }
+
+    .f-item .form-group .hors .bot.bot2 {
+        right: 204px;
+    }
+
+    .f-item .form-group .hors .bot.bot3 {
+        left: 160px;
+        top: 103px;
+    }
+
+    .f-item .form-group .hors .bot.bot4 {
+        left: 177px;
+        top: 147px;
+    }
+
+    .f-item .form-group .hors .bot.bot5 {
+        left: 229px;
+    }
+
+    .f-item .form-group .hors .bot.bot6 {
+        left: 136px;
+        top: 208px;
+    }
+
+    .f-item .form-group .hors .bot.bot7 {
+        left: 186px;
+    }
+
+    .f-item .form-group .hors .bot.bot8 {
+        left: 203px;
+    }
+
+    .f-item .form-group .hors .bot.bot9 {
+        left: 218px;
+    }
+
+    .f-item .form-group .hors .bot.bot10 {
+        left: 234px;
+    }
+
+    .f-item .form-group .hors .bot.bot15 {
+        right: 210px;
+        top: 102px;
+    }
+
+    .f-item .form-group .hors .bot.bot16 {
+        right: 227px;
+        top: 148px;
+    }
+
+    .f-item .form-group .hors .bot.bot17 {
+        right: 277px;
+    }
+
+    .f-item .form-group .hors .bot.bot18 {
+        right: 186px;
+        top: 208px;
+    }
+
+    .f-item .form-group .hors .bot.bot23 {
+        right: 235px;
+    }
+
+    .f-item .form-group .hors .bot.bot24 {
+        right: 251px;
+    }
+
+    .f-item .form-group .hors .bot.bot25 {
+        right: 268px;
+    }
+
+    .f-item .form-group .hors .bot.bot26 {
+        right: 287px;
+    }
+
+    .f-item .form-group .hors .bot.bot27 {
+        width: auto;
+        height: auto;
+        right: auto;
+        top: 221px !important;
+        margin: 0 !important;
+        padding: 0;
+        left: 256px;
+    }
+
+    .f-item .form-group .hors .bot.bot28 {
+        right: 299px;
+        top: 216px;
+    }
+    
+    #disease_monitoring .f-item .btn-success {
+        clear: both;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        margin-bottom: 15px !important;
+    }
+    
+    .t-bottom.col-xs-12 {
+    padding-bottom: 30px;
+}
+    
+     .register .login-inner {
+        padding: 50px 20px;
+    }
+
+    .login-card .login-form .form-group {
+        padding: 0 !important;
+    }
+
+    .register .login-card .login-form .form-group:nth-of-type(even) label {
+        left: 0;
+    }
+}
+
+@media(max-width:425px) {}
+
+@media(max-width:375px) {}
+
+@media(max-width:320px) {}

@@ -1,0 +1,4 @@
+[23-Dec-2019 13:39:59 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function home_url() in /home/a3alam87/public_html/sar/wp-content/themes/sar/view/parts/edit_case_top_btn.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/a3alam87/public_html/sar/wp-content/themes/sar/view/parts/edit_case_top_btn.php on line 4
