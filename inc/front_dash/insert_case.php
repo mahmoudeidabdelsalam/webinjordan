@@ -142,7 +142,36 @@
 	}
 // new post step 1
 	if ($_POST['datainputs'] && $_POST['post_id'] == 0) {
-		$id = wp_insert_post(array('post_title' => 'random', 'post_type' => 'patient', 'post_status' => 'Publish'));
+    $id = wp_insert_post(array('post_title' => 'random', 'post_type' => 'patient', 'post_status' => 'Publish'));
+
+    $patient_name = $_POST['datainputs'][0]['value'];
+    $birthDate = $_POST['datainputs'][7]['value'];
+
+    $birthDate = get_fields( $id, 'birth_date');
+
+    $birthDate = explode("/", $birthDate);
+    $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md") ? ((date("Y") - $birthDate[2]) - 1) : (date("Y") - $birthDate[2]));
+    $today = date("m/d/Y");
+
+
+    $custom_tax = array('location' => array(14));
+
+    $visite_id = wp_insert_post(
+      array(
+        'post_title' => $patient_name, 
+        'post_type' => 'visites', 
+        'post_status' => 'Publish', 
+        'tax_input' => array( 'visites_category' => array(30)),
+      )
+    );
+
+    update_field('field_5df7eb97de807', $visite_id, $id);
+    update_field( 'field_5df6892476151', $id, $visite_id );
+    update_field( 'field_5df67f70eae5b', $today, $visite_id );
+    update_field( 'field_5df67f92eae5c', $age, $visite_id );
+
+
+
 		$paint = array(
 			'ID' => $id,
 			'post_title' => $id,

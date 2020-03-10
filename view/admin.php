@@ -1200,7 +1200,6 @@ $.session.get('some key');
 
 <style>
 #NotiflixNotifyWrap div.notiflix-notify {
-    background-color: #ff0000 !important;
     padding: 10px;
     font-size: 20px !important;
     white-space: nowrap;
