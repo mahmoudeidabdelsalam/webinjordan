@@ -1197,3 +1197,23 @@ $.session.get('some key');
     </script>
 <?php endif; ?>
 
+
+<style>
+#NotiflixNotifyWrap div.notiflix-notify {
+    background-color: #ff0000 !important;
+    padding: 10px;
+    font-size: 20px !important;
+    white-space: nowrap;
+}
+
+#NotiflixNotifyWrap div.notiflix-notify svg.nmi {
+    width: 20px;
+}
+
+#NotiflixNotifyWrap div.notiflix-notify span.the-message.with-icon {
+    margin: 0 10px 0 30px;
+    font-size: 13px;
+    padding: 0 !important;
+    color: #fff !important;
+}
+</style>

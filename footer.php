@@ -48,20 +48,20 @@
         format: 'DD/MM/YYYY'
     });
     $(document).ready(function () {
-        var pravious_medic = $('#previous_medication select').val();
-        // alert(pravious_medic);
-        // $('#stop_patient_medic').hide();
-        $('#previous_medication').on('change', function () {
-            if ($('#previous_medication select').val() != null) {
-                if ($('#previous_medication select').val() !== pravious_medic) {
-                    // $('#stop_patient_medic').show();
-                    Notiflix.Report.Warning(' why stop This ? ', '"Pleas Sellect Why You Stop This Medication for This patient ? ', 'Okay');
-                    $('#stop_patient_medic').css('border', '1px solid rgb(79, 51, 51)')
-                }
-            }
+        // var pravious_medic = $('#previous_medication select').val();
+        // // alert(pravious_medic);
+        // // $('#stop_patient_medic').hide();
+        // $('#previous_medication').on('change', function () {
+        //     if ($('#previous_medication select').val() != null) {
+        //         if ($('#previous_medication select').val() !== pravious_medic) {
+        //             // $('#stop_patient_medic').show();
+        //             Notiflix.Report.Warning(' why stop This ? ', '"Pleas Sellect Why You Stop This Medication for This patient ? ', 'Okay');
+        //             $('#stop_patient_medic').css('border', '1px solid rgb(79, 51, 51)')
+        //         }
+        //     }
 
-            //
-        });
+        //     //
+        // });
         /*add button to check box new */
         $('.acf-checkbox-list .button').addClass('btn');
         $('button.acf-button.af-submit-button').addClass('btn');

@@ -30,7 +30,7 @@
     // Notiflix: Notify Default Settings on
     var notifySettings = {
         wrapID: 'NotiflixNotifyWrap', // can not customizable
-        width: '280px',
+        width: '320px',
         position: 'right-top', // 'right-top' - 'right-bottom' - 'left-top' - 'left-bottom'
         distance: '10px',
         opacity: 1,
@@ -52,7 +52,7 @@
         fontSize: '13px',
         cssAnimation: true,
         cssAnimationDuration: 400,
-        cssAnimationStyle: 'fade', // 'fade' - 'zoom' - 'from-right' - 'from-top' - 'from-bottom' - 'from-left'
+        cssAnimationStyle: 'from-bottom', // 'fade' - 'zoom' - 'from-right' - 'from-top' - 'from-bottom' - 'from-left'
         closeButton: false,
         useIcon: true,
         useFontAwesome: false,
